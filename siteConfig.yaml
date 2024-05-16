@@ -1,0 +1,36 @@
+meta:
+  title: Prerelease - Toast payments API reference
+  description: |
+    Toast payments API reference documentation. API reference documentation provides 
+    detailed information about the endpoints, parameters, and data objects for the
+    Toast platform APIs.
+  siteUrl: https://toastprereleasepaymentsnexus.redoc.ly/
+logo: images/toast-circle-color.png
+linkChecker:
+  severity: warning
+  options:
+    CheckExternal: false
+toc:
+  enable: true
+
+oasDefinitions:
+  authentication: https://api.redocly.com/registry/bundle/toastintegrations/authentication/v1/openapi.yaml
+  payments: https://api.redocly.com/registry/bundle/toastintegrations/paymentsNexus/v1/openapi.yaml
+  customerPaymentProfiles: https://api.redocly.com/registry/bundle/toastintegrations/customerPaymentProfiles/v1/openapi.yaml
+  # add links to definitions in our API registry by using a fully qualified URL.
+stylesheets:
+  - https://fonts.googleapis.com/css?family=Source+Code+Pro:300,400,600,700&display=swap
+  - https://doc.toasttab.com/doc/toast-tailwind.css
+analytics:
+  ga:
+    head: true
+    trackingId: UA-100322826-2
+#scripts:
+#  - ./static/intercom.js
+nav:
+
+  - label: API reference
+    page: index.md
+
+disableLastModified: true
+footer: {}

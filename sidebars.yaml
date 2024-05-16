@@ -1,0 +1,7 @@
+api-reference:
+  - page: index.md
+  - page: authentication.reference.page.yaml
+  - page: payments.reference.page.yaml
+  - page: customer-payment-profiles.reference.page.yaml
+
+  
